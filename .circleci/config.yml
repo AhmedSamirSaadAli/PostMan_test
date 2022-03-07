@@ -9,7 +9,7 @@ jobs:
           name: test
           command: |
             sudo npm install -g newman
-            # newman run New_Collection.postman_collection.json 
+            newman run New_Collection.postman_collection.json 
             newman -version
             pwd
             
