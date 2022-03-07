@@ -9,7 +9,8 @@ jobs:
           name: test
           command: |
             npm install -g newman
-            newman run New_Collection.postman_collection.json 
+            # newman run New_Collection.postman_collection.json 
+            newman -version
             
 workflows:
   default:
